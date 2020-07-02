@@ -1,0 +1,5 @@
+/build/
+*.pcap
+*.swp
+*.old
+/venv/
