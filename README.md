@@ -16,6 +16,12 @@ DATA:04000000016d0c00d2000000d200000040000000ffffffffffffb827eb98c70bfffffffffff
 
 `Capture.py` decode this serial stream, saves a PCAP file names `capture_YYYYMMDD_HHMMSS.pcap` and opens Wireshark.
 
+# Configure
+
+Configure the channel you want to sniff in `main.c` at line `#define CHANNEL 6`
+
+Configure your serial port in `Capture.py`
+
 # Building
 
 Builds with ESP-IDF v4.0
