@@ -6,7 +6,7 @@ import subprocess
 import signal
 import datetime
 
-ser = serial.Serial("/dev/cu.SLAB_USBtoUART", 921600)
+ser = serial.Serial("/dev/cu.usbserial-14340", 921600)
 
 filename = "capture_%s.pcap" % datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
